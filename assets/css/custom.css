@@ -1,0 +1,300 @@
+*,
+body {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: "Pontano Sans", sans-serif;
+  /* font-family: "Boing",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 5px 8px #ccc9cc;
+}
+.card-2 {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px #ccc9cc;
+  padding: 20px;
+}
+.card-3 {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px #ccc9cc;
+}
+
+.btn-custom {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#side-logo {
+  height: 50px;
+  width: auto;
+}
+
+#dash {
+  margin-bottom: 30px;
+}
+
+#button {
+  border-radius: 4px;
+}
+
+.search-criteria {
+  display: inline-block;
+  list-style-type: none;
+  border: 1px solid #ccc9cc;
+  width: 98%;
+  margin: -2% 2% -1% 1%;
+  font-weight: 400;
+}
+
+.search-criteria2 {
+  display: inline-block;
+  list-style-type: none;
+  width: 98%;
+  margin: -4% 2% -3% 1%;
+  font-weight: 400;
+}
+
+#cashinout {
+  max-height: 150px;
+}
+
+#recenttransaction {
+  max-height: 205px;
+}
+
+.left {
+  float: left;
+  padding: 20px 70px 20px 0px;
+  width: 100px;
+}
+
+.left2 {
+  float: left;
+  padding: 20px 70px 0px 0px;
+  width: 100%;
+}
+
+tr > td > input {
+  width: 250px;
+}
+
+input[name="daterange"] {
+  width: 100%;
+}
+
+.calendar {
+  height: 100px;
+  width: 800px;
+}
+
+.right {
+  float: right;
+  padding: 10px 150px 10px 20px;
+}
+
+input,
+select {
+  height: 35px;
+  border: 1px solid #c0bebe;
+  border-radius: 3px;
+  color: #616061;
+  padding: 0 5px;
+  width: 150px;
+}
+
+table {
+  bottom: 50px;
+  font-size: 13px;
+  color: #616061;
+  text-align: center;
+}
+
+table > thead > th {
+  font-size: 10px;
+}
+
+thead {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  border-top: 1px solid #dddcdd;
+}
+
+tbody {
+  color: #444;
+}
+
+#excel {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-top: 5px;
+}
+
+#pdf {
+  width: 26px;
+  height: 26px;
+  float: right;
+  margin-top: 10px;
+}
+#excel2 {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-top: -30px;
+}
+
+#pdf2 {
+  width: 26px;
+  height: 26px;
+  margin-top: -25px;
+  float: right;
+}
+
+#reporthead {
+  margin-top: -50px;
+}
+
+#transactionhead {
+  margin-top: -50px;
+}
+
+.tabletop {
+  margin-top: -20px;
+}
+
+ul {
+  display: inline-block;
+}
+
+.toright {
+  text-decoration: none;
+  display: inline-block;
+  width: 1000px;
+}
+
+.toleft {
+  display: inline-block;
+  width: 1000px;
+}
+
+#details {
+  margin: 5px 0px 0px 0px;
+}
+
+.item {
+  list-style-type: none;
+  color: #c55454;
+}
+
+.item > a > p {
+  color: #6b6d6e;
+  font-size: 15px;
+  text-align: left;
+  margin-left: -10px;
+}
+
+.item > .nav-link > p:hover,
+.item > .nav-link > i:hover,
+.nav-item > .nav-link > p:hover {
+  color: #fff;
+  background: #286d7eee;
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px #999999;
+  padding: 10px 20px 10px 15px;
+  border-top: -15px;
+  width: 200px;
+  font-weight: 400;
+  margin-left: -25px;
+}
+
+#range {
+  width: 120px;
+}
+
+#range-reset-button {
+  height: 40px;
+  width: 118px;
+}
+
+#range-search-button {
+  height: 40px;
+  width: 120px;
+}
+
+#range-reset-button2 {
+  height: 40px;
+  width: 120px;
+  margin-left: -125px;
+}
+
+#range-search-button2 {
+  height: 40px;
+  width: 120px;
+  margin-left: -120px;
+}
+
+#range > input,
+#range-reset-button > input,
+#range-search-button > input {
+  height: 40px;
+  width: 150px;
+  margin: 0% 2%;
+}
+
+#filter {
+  display: none;
+}
+
+#logout {
+  display: none;
+}
+
+#date {
+  margin-bottom: -30px;
+  margin-left: -75px;
+}
+
+@media only screen and (max-width: 1130px) {
+  #date {
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  #filter {
+    display: inline-block;
+    z-index: 1000;
+  }
+
+  .search-criteria {
+    display: none;
+  }
+
+  .search-criteria2 {
+    display: none;
+  }
+
+  .form-group {
+    margin: 30px 0px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #logout {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #range-reset-button2,
+  #range-search-button2,
+  #transactionid,
+  #status,
+  #msisdn,
+  #date-start,
+  #date-end {
+    width: 100%;
+  }
+}
