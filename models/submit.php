@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (isset($_POST['submit']) && $_POST['msisdn'] == 'testme123' && $_POST['password'] == 'testme123') {
+if (isset($_POST['submit']) && $_POST['msisdn'] == 'testme' && $_POST['password'] == '@dm!n123') {
     $msisdn = '1231231212';
     //$entitytype = $_POST['entitytype'];
     //hash("sha256", $password);

@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once('head.php');
 //include('models/transdetails.php');
 include('models/subscribed_services.php');
@@ -12,10 +12,7 @@ include('models/subscribed_services.php');
 
 
 
-        <div class="col-md-12">
-           <a href="models/subscribed-services-pdf.php"><img id="pdf2" src="img/pdf.png" alt="pdf-download"></a>
-            <a href="models/subscribed-services-excel.php"><img id="excel2" src="img/excel.png" alt="excel-download"></a>
-        </div>
+
         <br><br>
         <div class="row">
             <div class="col-md-12 tabletop" id="reporthead">
@@ -48,7 +45,7 @@ include('models/subscribed_services.php');
 
 
                                         $subscribedServices = json_decode($output[0])->data[$i];
-                                        
+
                                         $serviceName = $subscribedServices->SERVICE_NAME;
                                         $fee = $subscribedServices->FEE_VALUE;
                                         $fee_min = $subscribedServices->FEE_MIN;
@@ -60,7 +57,7 @@ include('models/subscribed_services.php');
 
 
 
-                                            echo "<tr>
+                                        echo "<tr>
                                                     <td style='text-align: left;'>$serviceName</td>
                                                     <td>$fee</td>
                                                     <td>$fee_min</td>
@@ -86,9 +83,9 @@ include('models/subscribed_services.php');
                         </div>
                     </div>
                 </div>
-               
 
-                
-    <?php
-    include_once('footer.php')
-    ?> 
+
+
+                <?php
+                include_once('footer.php')
+                ?>
